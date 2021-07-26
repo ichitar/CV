@@ -1,0 +1,31 @@
+img{
+  position:static;
+}
+
+div.relative{
+  position: relative;
+  text-align: center;
+  top:100px;
+  left: 30%;
+  width: 30%;
+  height: 1000px;
+  padding: 10px;
+  background-color: #FFD4F9;
+  border-radius: 25px;
+}
+
+div.absolute{
+  position: absolute;
+  text-align: center;
+  top:15%;
+  left: 15%;
+  right: 15%;
+  padding: 30px;
+  background-color: #CDFFFD;
+  border-radius: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
