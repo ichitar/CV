@@ -15,8 +15,8 @@ body{
 }
 
 .photo{
-  padding: 10%;
-  width:60%;
+  width:90%;
+  max-width:150;
 }
 
 .some{
