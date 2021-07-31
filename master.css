@@ -17,6 +17,7 @@ body{
 .photo{
   width:80%;
   max-width:150;
+  margin:20px;
 }
 
 .some{
