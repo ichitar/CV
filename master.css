@@ -12,21 +12,24 @@ body{
   display: flex;
   flex-direction: column;
   margin: 10%;
+  background: linear-gradient(45deg,rgba(87,9,121,1) 0%, rgba(117,0,255,1) 100%);
+  border-radius:50px;
 }
 
 .photo{
-  width:80%;
-  max-width:150;
-  margin:20px;
+  max-width:150px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-top:60px;
 }
 
 .some{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 50% 50%;
   justify-content: center;
   border-radius: 30px;
   margin: 10%;
+  padding-top:100px;
 }
 
 .some div{
@@ -42,5 +45,14 @@ hr{
   border:dotted 15px #eee;
   border-bottom: none;
   display: block;
-  width:25%;
+  width:300px;
+}
+
+img{
+  width:50%;
+  margin:10px;
+}
+p{
+  padding-top:50px;
+  color:white;
 }
